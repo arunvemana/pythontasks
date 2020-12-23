@@ -1,0 +1,360 @@
+{
+  "caseNbr": "615524598",
+  "totalMarketValue": "$4,354,022",
+  "strategies": [
+    {
+      "current": [
+        {
+          "columns": [
+            "listRevenue ",
+            "expenditure",
+            "discountPct"
+          ],
+          "strategy1": [
+            {
+              "listRevenue": "$3,311,739",
+              "expenditure": "$1,337,073",
+              "discountPct": "59.6%"
+            }
+          ],
+          "strategy2": [
+            {
+              "listRevenue": "$10,248,935",
+              "expenditure": "$4,354,022",
+              "discountPct": "57.5%"
+            }
+          ],
+          "strategy3": [
+            {
+              "listRevenue": "$3,180,500",
+              "expenditure": "$1,197,826",
+              "discountPct": "62.3%"
+            }
+          ],
+          "grandTotal": [
+            {
+              "listRevenue": "$16,741,174",
+              "expenditure": "$6,888,922",
+              "discountPct": "58.9%"
+            }
+          ]
+        }
+      ],
+      "tierOne": [
+        {
+          "columns": [
+            "suggestedRevenue",
+            "discountPct",
+            "industrySharePct",
+            "impact"
+          ],
+          "strategy1": [
+            {
+              "suggestedRevenue": "$3,311,739",
+              "discountPct": "0.0%",
+              "industrySharePct": "",
+              "impact": "$1,974,666"
+            }
+          ],
+          "strategy2": [
+            {
+              "suggestedRevenue": "$10,248,935",
+              "discountPct": "0.0%",
+              "industrySharePct": "",
+              "impact": "$5,894,913"
+            }
+          ],
+          "strategy3": [
+            {
+              "suggestedRevenue": "$3,180,500",
+              "discountPct": "0.0%",
+              "industrySharePct": "",
+              "impact": "$1,982,674"
+            }
+          ],
+          "grandTotal": [
+            {
+              "proposed": "$16,741,174",
+              "discountPct": "0.0%",
+              "marketPercentage": "",
+              "impact": "$9,852,252"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "productSegment": [
+    {
+      "current": [
+        {
+          "industrySharePct": "60.0%",
+          "columns": [
+            "totalMarketValue",
+            "listRevenue ",
+            "expenditure",
+            "discountPct"
+          ],
+          "productData": [
+            {
+              "product1": [
+                {
+                  "totalMarketValue": "$14,617,040",
+                  "listRevenue": "$8,770,224",
+                  "expenditure": "$3,521,615",
+                  "discountPct": "59.8%",
+                  "childLevel1": [
+                    {
+                      "product2": [
+                        {
+                          "totalMarketValue": "$821,018",
+                          "listRevenue": "$492,611",
+                          "expenditure": "$211,019",
+                          "discountPct": "57.2%",
+                          "childLevel2": [
+                            {
+                              "product3": [
+                                {
+                                  "totalMarketValue": "0",
+                                  "listRevenue": "0",
+                                  "expenditure": "0",
+                                  "discountPct": "0"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "product4": [
+                        {
+                          "totalMarketValue": "$10,453,722",
+                          "listRevenue": "$6,272,233",
+                          "expenditure": "$2,568,461",
+                          "discountPct": "59.1%",
+                          "childLevel2": [
+                            {
+                              "product5": [
+                                {
+                                  "totalMarketValue": "0",
+                                  "listRevenue": "0",
+                                  "expenditure": "0",
+                                  "discountPct": "0"
+                                }
+                              ],
+                              "product6": [
+                                {
+                                  "totalMarketValue": "0",
+                                  "listRevenue": "0",
+                                  "expenditure": "0",
+                                  "discountPct": "0"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "product7": [
+                {
+                  "totalMarketValue": "$8,162,323",
+                  "listRevenue": "$4,897,394",
+                  "expenditure": "$2,073,623",
+                  "discountPct": "57.7%",
+                  "childLevel1": [
+                    {
+                      "product8": [
+                        {
+                          "totalMarketValue": "$563,842",
+                          "listRevenue": "$338,305",
+                          "expenditure": "$130,917",
+                          "discountPct": "61.3%"
+
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "product9": [
+                {
+                  "totalMarketValue": "$2,328,042",
+                  "listRevenue": "$1,396,825",
+                  "expenditure": "$554,306",
+                  "discountPct": "60.3%"
+                }
+              ]
+            }
+          ],
+          "summary": [
+            {
+              "grandTotal": [
+                {
+                  "totalMarketValue": "$27,901,957",
+                  "listRevenue": "$16,741,174",
+                  "expenditure": "$6,888,922",
+                  "discountPct": "58.9%"
+                }
+              ],
+              "SummaryField1": "2.0%",
+              "SummaryField2": "$1,500",
+              "netGrandTotal": [
+                {
+                  "listRevenue": "$1,350,035",
+                  "expenditure": "$601,180",
+                  "discountPct": "55.5%"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tierOne": [
+        {
+          "industrySharePct": "62.0%",
+          "columns": [
+            "suggestedRevenue",
+            "discountPct",
+            "marketPercentage",
+            "impact"
+          ],
+          "productData": [
+            {
+              "product1": [
+                {
+                  "suggestedRevenue": "$8,770,224",
+                  "marketPercentage": "0.0%",
+                  "impact": "$3,521,615",
+                  "discountPct": "0.0%",
+                  "childLevel1": [
+                    {
+                      "product2": [
+                        {
+                          "proposed": "$821,018",
+                          "marketPercentage": "0.0%",
+                          "impact": "$211,019",
+                          "discountPct": "0.0%",
+                          "childLevel2": [
+                            {
+                              "product3": [
+                                {
+                                  "proposed": "0",
+                                  "marketPercentage": "0.0%",
+                                  "impact": "0",
+                                  "discountPct": "0.0%"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "product4": [
+                        {
+                          "proposed": "$10,453,722",
+                          "marketPercentage": "0.0%",
+                          "impact": "$2,568,461",
+                          "discountPct": "0.0%",
+                          "childLevel2": [
+                            {
+                              "product5": [
+                                {
+                                  "proposed": "0",
+                                  "marketPercentage": "0.0%",
+                                  "impact": "0",
+                                  "discountPct": "0.0%"
+                                }
+                              ],
+                              "product6": [
+                                {
+                                  "proposed": "0",
+                                  "marketPercentage": "0.0%",
+                                  "impact": "0",
+                                  "discountPct": "0.0%"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "product7": [
+                {
+                  "suggestedRevenue": "$8,162,323",
+                  "marketPercentage": "0.0%",
+                  "impact": "$2,073,623",
+                  "discountPct": "0.0%",
+                  "childLevel1": [
+                    {
+                      "product8": [
+                        {
+                          "proposed": "$563,842",
+                          "marketPercentage": "0.0%",
+                          "impact": "$130,917",
+                          "discountPct": "0.0%"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "product9": [
+                {
+                  "suggestedRevenue": "$2,328,042",
+                  "marketPercentage": "0.0%",
+                  "impact": "$554,306",
+                  "discountPct": "0.0%"
+                }
+              ]
+            }
+          ],
+          "summary": [
+            {
+              "grandTotal": [
+                {
+                  "proposed": "$16,741,174",
+                  "discountPct": "0.0%",
+                  "marketPercentage": "0.0%",
+                  "impact": "$9,852,252"
+                }
+              ],
+              "SummaryField1": "$9,852,252",
+              "SummaryField2": "$9,852,252",
+              "SummaryField3": "2.0%",
+              "SummaryField4": "$1,500",
+              "SummaryField5 ": "$1,500",
+              "netGrandTotal": [
+                {
+                  "proposed": "$16,741,174",
+                  "discountPct": "0.0%",
+                  "marketPercentage": "0.0%",
+                  "impact": "$9,852,252"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+    ]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
