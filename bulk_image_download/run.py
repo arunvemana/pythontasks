@@ -22,10 +22,16 @@ def timeit(method):
 
 
 def get_url_from_file(filepath: pathlib.Path) -> List[str]:
-    with open(filepath) as urls:
-        list_urls = urls.readlines()
-        list_urls = [urls.rstrip() for urls in list_urls]
-    return list_urls
+    try:
+        if os.path.isfile(filepath):
+            with open(filepath) as urls:
+                list_urls = urls.readlines()
+                list_urls = [urls.rstrip() for urls in list_urls]
+            return list_urls
+        else:
+            raise Exception("file is not there")
+    except Exception as error:
+        sys.exit(error)
 
 
 def get_the_data(url: str) -> ByteString:
@@ -51,6 +57,7 @@ def save_the_image(urls: List[str], output_path: pathlib.Path):
 
 def run(filename: pathlib.Path, output_path: pathlib.Path):
     print(filename)
+
     urls = get_url_from_file(filepath=filename)
     print(urls)
     save_the_image(urls, output_path)
