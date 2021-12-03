@@ -2,7 +2,9 @@ import requests
 import re
 import os
 import bs4
-from datetime import  datetime
+from datetime import datetime
+import shutil
+
 base_url = "https://www.regelleistung.net/ext/data/?lang=en"
 output_path = 'output'
 
@@ -50,7 +52,7 @@ def what_to_download(tso: dict, datatype: dict):
     if choices == '1':
         for each_tso in tso:
             for each_type in datatype:
-                download_file(tso.get(each_tso),datatype.get(each_type))
+                download_file(tso.get(each_tso), datatype.get(each_type))
 
     elif choices == '2':
         print("Provide the dropdown details")
@@ -63,17 +65,33 @@ def what_to_download(tso: dict, datatype: dict):
 def merge_the_csv():
     files_list = os.listdir(os.path.join('output'))
     print(files_list)
-    output_filename = f"Single_file_on_{datetime.now()}.csv"
-    with open(output_filename,'a') as main_file:
+    output_filename = f"Single_file_on_{datetime.now().strftime(format='%d.%m.%Y')}.csv"
+    with open(output_filename, 'a') as main_file:
         for i in files_list:
             data = []
-            with open(os.path.join(output_path,i),'r') as sub_file:
+            with open(os.path.join(output_path, i), 'r') as sub_file:
                 data = sub_file.readlines()
 
             main_file.writelines(data)
             main_file.write('\n')
     return os.path.abspath(output_filename)
+
+
+def clear_the_folder():
+    shutil.rmtree(os.path.join(output_path))
+
+
+def create_the_folder():
+    try:
+        os.mkdir(os.path.join(output_path))
+    except FileExistsError:
+        pass
+
+
 if __name__ == '__main__':
-    # tso, datatype = get_drop_down_details()
-    # what_to_download(tso, datatype)
-    merge_the_csv()
+    create_the_folder()
+    tso, datatype = get_drop_down_details()
+    what_to_download(tso, datatype)
+    where_is_saving = merge_the_csv()
+    print(f"saved data path is {where_is_saving}")
+    clear_the_folder()
