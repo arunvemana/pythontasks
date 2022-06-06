@@ -1,0 +1,14 @@
+profile::antcandy::vitualhosts:
+  qcant.playerzpot.com
+    listen:'80'
+  qcfs.playerzpot.com
+    listen:'80'
+profile::antcandy::location:
+	- hostname:'qcant.playerzpot.com'
+	locations:
+		v1:"3002"
+		 v2:"3003"
+	- hostname:'qcant.playerzpot.com'
+	locations:
+		v1:"3002"
+		 v2:"3003"
