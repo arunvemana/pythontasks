@@ -1,0 +1,3 @@
+reportlab
+beautifulsoup4
+pydantic
